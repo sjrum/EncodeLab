@@ -46,11 +46,17 @@ The intended distribution is a complete extracted folder: keep its executable, `
 
 ## Development Status
 
-EncodeLab's R79-based portable candidate and its matching source/notices materials have passed focused private verification and are ready for owner release approval. No public application download has been published. Clean-Windows operation has not yet been verified.
+EncodeLab is currently preparing for its first public Windows release.
+
+The application is undergoing final release preparation, with downloads becoming available here once published.
 
 ## Licensing and Third-Party Information
 
-EncodeLab's 57 identified original application/build files are licensed **GPL-2.0-or-later**. Bundled third-party projects retain their own licences. The version-matched source and notices archive is prepared privately to accompany an authorised software release; it is not yet a public download. See [credits](THIRD_PARTY_CREDITS.md), [staged legal texts](THIRD_PARTY_NOTICES/INDEX.md), [source availability](SOURCE_AVAILABILITY.md) and [release status](RELEASE_STATUS.md).
+EncodeLab's original application code is licensed under **GPL-2.0-or-later**, as indicated by its source licensing notices.
+
+EncodeLab builds upon numerous open-source projects, each retaining its respective licence and copyright.
+
+Full [credits](THIRD_PARTY_CREDITS.md), [third-party licences](THIRD_PARTY_NOTICES/INDEX.md), [source availability](SOURCE_AVAILABILITY.md) and [release information](RELEASE_STATUS.md) are provided for transparency.
 
 ## Downloads
 
