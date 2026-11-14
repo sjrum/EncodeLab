@@ -32,11 +32,7 @@ EncodeLab is a Windows x64 video-transcoding application being prepared for port
 
 ## Screenshots
 
-A genuine capture of the current private candidate, using isolated fresh settings and blank previews:
-
 ![Encode page](screenshots/encode.jpg)
-
-This is a genuine capture of the newly branded private candidate, not a mock-up or an announcement of a public release.
 
 ## How to Use
 
@@ -45,15 +41,15 @@ This is a genuine capture of the newly branded private candidate, not a mock-up 
 3. Choose a new destination and add the job to the queue.
 4. Start the queue and review the completed result.
 
-The intended distribution is a complete extracted folder: keep its executable, `_internal` and `vendor` folders together. It needs a writable user location and compatible Windows x64 hardware. Hardware encoding requires the corresponding installed GPU driver. Current testing is on the development Windows host; a remaining QTGMC runtime dependency and clean-PC validation must be resolved before describing it as installer-free on every supported machine.
+The intended distribution is a complete extracted folder: keep its executable, `_internal` and `vendor` folders together. It needs a writable user location and compatible Windows x64 hardware. Hardware encoding requires the corresponding installed GPU driver. The Microsoft Visual C++ x64 Redistributable is a documented prerequisite where the matching runtime is not already installed. Clean-Windows operation has not yet been verified.
 
 ## Development Status
 
-EncodeLab is under private review and public-release preparation. The application, dependency source materials and redistribution conditions are being audited. No public binary release is currently approved.
+EncodeLab's R79-based portable candidate and its matching source/notices materials have passed focused private verification and are ready for owner release approval. No public application download has been published. Clean-Windows operation has not yet been verified.
 
 ## Licensing and Third-Party Information
 
-EncodeLab's own source licence has **not yet been selected**. Bundled projects retain their own licences; this page does not relicense them. See [credits](THIRD_PARTY_CREDITS.md), [staged legal texts](THIRD_PARTY_NOTICES/INDEX.md), [source availability](SOURCE_AVAILABILITY.md) and [release status](RELEASE_STATUS.md).
+EncodeLab's 57 identified original application/build files are licensed **GPL-2.0-or-later**. Bundled third-party projects retain their own licences. The version-matched source and notices archive is prepared privately to accompany an authorised software release; it is not yet a public download. See [credits](THIRD_PARTY_CREDITS.md), [staged legal texts](THIRD_PARTY_NOTICES/INDEX.md), [source availability](SOURCE_AVAILABILITY.md) and [release status](RELEASE_STATUS.md).
 
 ## Downloads
 
