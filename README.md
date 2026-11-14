@@ -27,6 +27,7 @@ EncodeLab is a Windows x64 video-transcoding application being prepared for port
 - Experimental full-video and opening-range calibrated quality selection, with CPU/OpenCL analysis options. Analysis selects a quality value; the ordinary encoder pipeline then performs the final encode. It cannot guarantee an exact bitrate or file size.
 - QTGMC Fast, Balanced and High Quality, plus standard deinterlacing; crop, aspect-ratio handling and bounded/custom resolutions.
 - Audio, subtitle, chapter and additional-stream selection; Fast Copy / Remux.
+- Optional **Open Disc / MakeMKV integration** for selecting and extracting supported disc titles and tracks. [MakeMKV](https://www.makemkv.com/) is installed separately and is not included in the portable package.
 - Batch queue and history, completed-media protection and direct FFmpeg processing.
 - Clean Output metadata handling and newly measured MKV track statistics through MKVToolNix.
 
