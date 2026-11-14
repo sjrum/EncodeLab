@@ -24,6 +24,8 @@ These acknowledgements describe EncodeLab's source-complete R79 private release 
 | [NumPy](https://numpy.org/) / [OpenBLAS](https://github.com/OpenMathLib/OpenBLAS) | 2.2.6 / 0.3.29 | NumPy, OpenBLAS and LAPACK contributors; BSD and bundled-code terms |
 | [typing_extensions](https://github.com/python/typing_extensions) | 4.16.0 | Python typing contributors; PSF-2.0 |
 
+**Optional external integration:** [MakeMKV](https://www.makemkv.com/) provides disc access and title/track extraction through EncodeLab's Open Disc workflow when installed separately. It is **not bundled** with EncodeLab; its own licence and any activation requirements apply.
+
 Further embedded/runtime acknowledgements: [OpenSSL](https://www.openssl.org/) 3.0.16 (Apache-2.0), [SQLite](https://sqlite.org/copyright.html) 3.49.1 (public-domain dedication), [libffi](https://github.com/libffi/libffi) (MIT), GCC runtime with its Runtime Library Exception, MinGW-w64, winpthreads, zimg, graphengine and vsxx. The Microsoft Visual C++ x64 Redistributable is a documented system prerequisite, not part of the portable ZIP. Qt also incorporates separately credited font, image, compression, regex, Unicode and software-OpenGL components. Matching source archives, build scripts and patches are prepared in the private source-materials package; the recovered legal texts retain their authors' notices.
 
 Qt PDF, QML and WebEngine; Pillow; FFMS2; MVUtensils; mvsfunc; vsjetpack; akarin; resize2; R81/glslang; proprietary RTX enhancement SDKs/models are **not in this candidate**. Historical acknowledgements are not assertions that these packages are shipped now.
