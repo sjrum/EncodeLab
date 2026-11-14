@@ -1,6 +1,6 @@
 # Staged legal texts — working set
 
-Original upstream text is retained unchanged. Presence here is not proof that all corresponding-source, relinking or grant obligations are complete. Qt source notices include candidate embedded components whose exact build enablement must still be reconciled. No final application licence is added.
+Original upstream licence texts are retained unchanged. **This is a historical documentation-stage working set**, including notices from older R81/glslang and MKVToolNix 98 investigations; not every item applies to the latest R79 candidate. A separate, version-matched source/notices archive for the current R79/MKVToolNix 103 candidate is prepared privately for publication alongside an authorised software release. EncodeLab's 57 identified original application/build files use GPL-2.0-or-later.
 
 - [mkvtoolnix/COPYING.txt](mkvtoolnix/COPYING.txt)
 - [msys2/amf-headers/LICENSE](msys2/amf-headers/LICENSE)
