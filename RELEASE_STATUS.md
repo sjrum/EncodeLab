@@ -1,9 +1,9 @@
 # Release status
 
-**Documentation draft ready for owner review. No public binary clearance.**
+**The R79-based portable candidate is ready for owner release approval; no public software download has been published.**
 
-The current private candidate launches and passes short FFmpeg, MKVToolNix and QTGMC checks on the development Windows host. This is not a clean-machine certification.
+Focused testing covered QTGMC Fast/Balanced/High Quality, CPU encoding, queue/error preservation, MKVToolNix statistics and stream/chapter retention, extracted-ZIP startup and privacy checks. The current candidate uses an explicitly Unlicensed havsfunc revision, a pinned-source VapourSynth R79 CPU runtime and MKVToolNix 103. Matching source/build materials, patches and third-party notices have been prepared privately for release alongside the portable ZIP.
 
-Remaining work is specific: choose the application's own licence; complete corresponding-source/build and notice bundles; establish full classic-script grant coverage; resolve the GPLv2-only-plugin / Apache-2.0-in-VapourSynth combination; address the worker's system Visual C++ runtime dependency; and approve final privacy/source-export handling. The fully functional QTGMC configuration remains the intended target.
+The 57 identified original EncodeLab application/build files use GPL-2.0-or-later; third-party components retain their own terms. The official Microsoft Visual C++ x64 Redistributable is a documented prerequisite. **A fresh-Windows installation has not been tested.**
 
-The documentation can be reviewed separately from the binary. No repository, download URL, publication date or release approval is implied.
+There is no public GitHub Release, downloadable EXE or portable ZIP yet. Final publication and source-material distribution require the owner's separate approval.
