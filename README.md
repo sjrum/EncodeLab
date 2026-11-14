@@ -32,13 +32,11 @@ EncodeLab is a Windows x64 video-transcoding application being prepared for port
 
 ## Screenshots
 
-Genuine captures of the current private candidate, using isolated fresh settings and blank previews:
+A genuine capture of the current private candidate, using isolated fresh settings and blank previews:
 
 ![Encode page](screenshots/encode.jpg)
 
-![Picture timing](screenshots/picture-timing.jpg)
-
-These are genuine captures of the newly branded private candidate, not mock-ups or an announcement of a public release.
+This is a genuine capture of the newly branded private candidate, not a mock-up or an announcement of a public release.
 
 ## How to Use
 
