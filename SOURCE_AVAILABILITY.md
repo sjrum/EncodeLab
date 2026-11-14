@@ -1,19 +1,19 @@
 # Source availability — preparation status
 
-No public binary or application-source release is offered yet. Links below identify upstream evidence; they are **not** a completed corresponding-source offer and do not replace a distributor's licence obligations.
+EncodeLab's verified R79-based release candidate has a **privately prepared, version-matched source and notices archive** for distribution with an authorised public portable release. The source package is **not yet published**, and the public GitHub repository currently hosts documentation only.
 
-| Covered component | Material verified locally | Before binary distribution |
-|---|---|---|
-| FFmpeg/FFprobe 8.1.1 | Exact main source archive, build recipe/configuration; dynamic codec package identities | Assemble matching codec/runtime source, patches, scripts and build inputs; offer a complete source kit with the binary |
-| x264/x265 and other copyleft codec libraries | Package revisions and binary matches; x265 source; relevant licences | Match exact package revisions and build patches, preserve GCC exceptions and LGPL replacement/relinking requirements |
-| Qt/PySide6/shiboken6 6.12.0 | Exact wheel metadata, Qt source attribution records and legal texts | Match wheel build sources/configuration, embedded libraries and Mesa/LLVM revision; document replacement of LGPL libraries and any applicable installation/relinking information |
-| MKVToolNix 98.0 | Exact official source tarball and bundled notices | Complete Windows/static-library build closure and corresponding-source delivery |
-| VapourSynth R81 and classic plugins | Exact wheels, source distributions, source headers, local compatibility patch | Pin zimg/libp2p and native build inputs; resolve the specific in-process licence combination; retain complete covered source and build instructions |
-| Classic havsfunc/QTGMC r33 and mvsfunc11 | Exact revisions and historical grant research | Establish applicable grants for the complete shipped files; later licences must not simply be assumed retroactive |
-| CPython/NumPy/other permissive components | Official artifact identities and major notice bundles | Finish static-component attribution mapping; comply with individual notices and redistribution terms |
+| Component | Prepared matching source/build materials |
+|---|---|
+| EncodeLab application | GPL-2.0-or-later declarations for the 57 identified original application/build files; public release source export prepared separately from private Git history and owner data |
+| FFmpeg/FFprobe 8.1.1 and codecs | Matching source archives, licences, patches and recorded build configurations supplied in the private source/notices collection |
+| Qt/PySide6/shiboken6 6.12.0 | Source correspondence and LGPL replacement information recorded; 25 native-library payloads and 24,245 source-file comparisons were verified |
+| MKVToolNix 103.0 (MSYS2 UCRT64 103.0-1) | Exact source packages, static/runtime dependency sources, build recipes and patches collected for the distributed mkvpropedit binary |
+| VapourSynth R79 | Source-pinned CPU core/filter build at `acabf605b2205b32d65859bb2736405719d2fafd`, including modified source/recipes; official R79 binding/vspipe/vsscript retained |
+| QTGMC/havsfunc | Explicitly Unlicensed upstream revision `99db9ab4d343bcea5d1f37cb26f58a8c79600c04`, complete source and documented compatibility patch. Historical r33 and mvsfunc are not distributed |
+| Other shipped dependencies | Version-matched licence/notices and source evidence collected in the release's corresponding-source materials |
 
-Preferred delivery is a versioned, hash-addressed corresponding-source archive alongside any authorised binary download, with exact patches/build instructions and required notices. Do not rely solely on a moving upstream branch or a generic homepage. A written source offer has separate obligations and is not being issued by this draft.
+The private source/notices archive contains 46 source archives and 1,114 files, including relevant patches and build instructions. The portable ZIP and this source package should be made available together with equal access, along with SHA-256 checksums, after explicit owner release approval.
 
-Relevant authoritative guidance: [GNU GPLv2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html), [GNU LGPLv3](https://www.gnu.org/licenses/lgpl-3.0.html), [FFmpeg legal guidance](https://ffmpeg.org/legal.html), [Qt licensing](https://doc.qt.io/qt-6/licensing.html).
+The official Microsoft Visual C++ x64 Redistributable is a **prerequisite**, not an included app-local runtime. Clean-Windows installation has not been independently verified.
 
-EncodeLab's own source licence and a curated source export remain pending owner review. No private repository history, user data, test logs or application source is included in this documentation-only stage.
+For redistribution obligations see [GNU GPLv2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html), [GNU LGPLv3](https://www.gnu.org/licenses/lgpl-3.0.html), [FFmpeg legal guidance](https://ffmpeg.org/legal.html) and [Qt licensing](https://doc.qt.io/qt-6/licensing.html). Public documentation is not itself a corresponding-source distribution.
