@@ -48,7 +48,7 @@ The portable distribution is a complete extracted folder: keep its executable, `
 
 ## Development Status
 
-**EncodeLab 0.11.16 is the latest public release.** It adds HQDN3D/FFTDNOIZ denoising controls, direct MP4 output with compatibility safeguards, optional verified hardware decoding, a hardware-detection startup screen and more responsive bitrate editing. See [release notes](https://github.com/sjrum/EncodeLab/releases/tag/v0.11.16) for requirements and known limitations. Downloads are available below.
+**EncodeLab 0.11.17 is the latest public maintenance release.** It corrects QTGMC handling of verified MPEG-2 repeat-field cadence and strengthens pass-completion checks, retaining the existing encoding workflows and 0.11.17 features. See [release notes](https://github.com/sjrum/EncodeLab/releases/tag/v0.11.17) for requirements and known limitations. Downloads are available below.
 
 ## Licensing and Third-Party Information
 
@@ -60,13 +60,13 @@ Full [credits](THIRD_PARTY_CREDITS.md), [third-party licences](THIRD_PARTY_NOTIC
 
 ## Downloads
 
-- **[EncodeLab 0.11.16 Windows x64 Portable](https://github.com/sjrum/EncodeLab/releases/download/v0.11.16/EncodeLab_0.11.16_Windows_x64_Portable.zip)** — 144.09 MiB
-- [Matching application source and third-party notices](https://github.com/sjrum/EncodeLab/releases/download/v0.11.16/EncodeLab_0.11.16_Source_and_Notices.zip) — 691.09 MiB
-- [SHA-256 checksums](https://github.com/sjrum/EncodeLab/releases/download/v0.11.16/SHA256SUMS.txt)
-- [Full GitHub Release notes](https://github.com/sjrum/EncodeLab/releases/tag/v0.11.16)
+- **[EncodeLab 0.11.17 Windows x64 Portable](https://github.com/sjrum/EncodeLab/releases/download/v0.11.17/EncodeLab_0.11.17_Windows_x64_Portable.zip)** — 144.10 MiB
+- [Matching application source and third-party notices](https://github.com/sjrum/EncodeLab/releases/download/v0.11.17/EncodeLab_0.11.17_Source_and_Notices.zip) — 691.09 MiB
+- [SHA-256 checksums](https://github.com/sjrum/EncodeLab/releases/download/v0.11.17/SHA256SUMS.txt)
+- [Full GitHub Release notes](https://github.com/sjrum/EncodeLab/releases/tag/v0.11.17)
 
 Ordinary users only need the portable ZIP and any missing system prerequisites to run EncodeLab. Extract the complete folder before launching `EncodeLab.exe`. Install the official [Microsoft Visual C++ x64 Redistributable](https://aka.ms/vc14/vc_redist.x64.exe) if needed; hardware encoders require compatible installed GPU drivers.
 
 The source/notices ZIP is provided separately for source access and licensing compliance; it is not needed merely to run the application. GitHub's automatic source archive of this documentation repository is not the application's corresponding source. Clean-Windows installation has not yet been independently verified.
 
-Previous releases: [EncodeLab 0.11.15](https://github.com/sjrum/EncodeLab/releases/tag/v0.11.15), [EncodeLab 0.11.14](https://github.com/sjrum/EncodeLab/releases/tag/v0.11.14) and [EncodeLab 0.11.13](https://github.com/sjrum/EncodeLab/releases/tag/v0.11.13) remain available with their original archives and checksums.
+Previous releases: [EncodeLab 0.11.16](https://github.com/sjrum/EncodeLab/releases/tag/v0.11.16), [EncodeLab 0.11.15](https://github.com/sjrum/EncodeLab/releases/tag/v0.11.15), [EncodeLab 0.11.14](https://github.com/sjrum/EncodeLab/releases/tag/v0.11.14) and [EncodeLab 0.11.13](https://github.com/sjrum/EncodeLab/releases/tag/v0.11.13) remain available with their original archives and checksums.
